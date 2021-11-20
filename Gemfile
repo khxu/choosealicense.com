@@ -17,6 +17,10 @@ group :development do
   gem 'terminal-table'
 end
 
+group :jekyll_plugins do
+  gem "jekyll-polyglot"
+end
+
 group :test do
   gem 'html-proofer', '~> 3.0'
   gem 'licensee', git: 'https://github.com/licensee/licensee.git', branch: 'master'

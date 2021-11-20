@@ -36,6 +36,11 @@ exclude:
   - assets/vendor/*/README.*
   - license-list-XML
 
+languages: ["en", "fr"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true
+
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
